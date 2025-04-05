@@ -311,7 +311,7 @@ SUBSCRIPTION_FILE = "subscription_data.txt"
 CHANNELS_FILE = "channels_data.json"
 
 # Admin ID
-YOUR_ADMIN_ID = 7621154046
+YOUR_ADMIN_ID = 7935947598
 
 # Helper function to check admin privilege
 def is_admin(user_id):
