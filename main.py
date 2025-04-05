@@ -37,14 +37,14 @@ photo = "https://www.pixelstalk.net/wp-content/uploads/2025/03/A-breathtaking-im
 # Initialize the bot
 bot = Client(
     "bot",
-    api_id=API_ID,
-    api_hash=API_HASH,
-    bot_token=BOT_TOKEN
+    api_id= "27637482",
+    api_hash= "176348d88118523f5b898fd15e416694",
+    bot_token="7755596184:AAFuNx8N3tvMAlXad_XMWrCa3Xi9RfOnqbE"
 )
 
-API_ID    = os.environ.get("API_ID", "")
-API_HASH  = os.environ.get("API_HASH", "")
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "") 
+API_ID    = os.environ.get("API_ID", "27637482")
+API_HASH  = os.environ.get("API_HASH", "176348d88118523f5b898fd15e416694")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "7755596184:AAFuNx8N3tvMAlXad_XMWrCa3Xi9RfOnqbE") 
 
 # Define aiohttp routes
 routes = web.RouteTableDef()
